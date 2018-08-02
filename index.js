@@ -3,10 +3,10 @@ function distanceFromHqInBlocks(blocks){
   if (blocks = 43){
     return distance = 1;
   }
-  else if (blocks = 50){
+  else if (blocks > 43){
     return distance = 8;
   }
-  else if (blocks = 34){
+  else if (blocks < 43){
     return distance = 8;
   }
 
