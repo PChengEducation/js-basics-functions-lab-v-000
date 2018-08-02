@@ -6,4 +6,8 @@ function distanceFromHqInBlocks(blocks){
   else if (blocks = 50){
     return distance = 8;
   }
+  else if (blocks = 34){
+    return distance = 8;
+  }
+
 }
