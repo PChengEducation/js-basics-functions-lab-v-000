@@ -5,9 +5,9 @@ function distanceFromHqInBlocks(blocks){
 };
 
 function distanceFromHqlnFeet(blocks){
-  let difference 
+  let difference = 0;
   differnce = blocks - 42;
-  let result 
+  let result = 0;
   result = difference*264;
   return result;
 };
