@@ -6,5 +6,5 @@ function distanceFromHqInBlocks(blocks){
 
 function distanceFromHqlnFeet(blocks){
   let distanceInFeet = distanceFromHqlnBlocks() * 264
-  return distanceInFeet
+  return distanceInFeet;
 };
