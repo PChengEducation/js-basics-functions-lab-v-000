@@ -2,10 +2,7 @@
 function distanceFromHqInBlocks(blocks){
   let result = blocks - 42
   return result < 0? result*-1 : result
-
 }
 function distanceFromHqlnFeet(blocks){
-  if (blocks === 43){
-    return distance = 264;
-  }
+  return distanceFromHqlnBocks(blocks) * 12
 }
