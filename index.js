@@ -19,5 +19,5 @@ function calculatesFarePrice(blocks, endBlock){
   case <= 400:
     fare = 0;
     break;
-  }
-}
+  };
+};
