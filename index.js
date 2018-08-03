@@ -8,10 +8,10 @@ function distanceFromHqInBlocks(blocks){
     let distance = blocks - 43
     return distance
   }
-  else if (blocks < 43){
-    let distance = 43 - blocks
-    return distance
-  }
+//  else if (blocks < 43){
+  //  let distance = 43 - blocks
+  //  return distance
+//  }
 
 }
 function distanceFromHqlnFeet(blocks){
