@@ -19,7 +19,7 @@ function calculatesFarePrice(blocks, endBlock){
 
 
   switch(distance){
-    case <= 264:
+    case (264):
     fare = 0;
     break;
   };
