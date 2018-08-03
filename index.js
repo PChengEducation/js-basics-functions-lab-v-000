@@ -25,7 +25,9 @@ function calculatesFarePrice(blocks, endBlock){
     fare = 0;
     break;
     case 2:
-    fare =
+    distance = 400 - distance;
+    fare = distance * 0.20;
+    break;
   };
   return fare;
 
