@@ -1,14 +1,15 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(blocks){
   if (blocks === 43){
-    return distance = 1;
+    let distance = 1;
+    return distance;
   }
   else if (blocks > 43){
-    return distance = blocks - 43;
+    let distance = blocks - 43;
     return distance;
   }
   else if (blocks < 43){
-    distance = 43 - blocks;
+    let distance = 43 - blocks;
     return distance;
   }
 
