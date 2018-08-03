@@ -5,5 +5,5 @@ function distanceFromHqInBlocks(blocks){
 };
 
 function distanceFromHqlnFeet(blocks){
-  return distanceFromHqlnBlocks(blocks) * 264
+  return distanceFromHqlnBlocks() * 264
 };
