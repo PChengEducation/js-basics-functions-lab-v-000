@@ -15,9 +15,9 @@ function distanceTravelledInFeet(blocks, endBlock){
 function calculatesFarePrice(blocks, endBlock){
   let distance = distanceFromHqInFeet(endBlock) - distanceFromHqInFeet(blocks);
   let fare;
-  switch (distance)
+  switch (distance){
   case <= 400:
     fare = 0;
     break;
-  case
+  }
 }
