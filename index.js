@@ -11,3 +11,8 @@ function distanceFromHqInBlocks(blocks){
   }
 
 }
+function distanceFromHqlnFeet(feet){
+  if (feet = 43){
+    return distance = 264;
+  }
+}
