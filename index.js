@@ -16,7 +16,7 @@ function calculatesFarePrice(blocks, endBlock){
   let fare = 0;
   let fareCode;
   distance = distanceTravelledInFeet(blocks, endBlock);
-  if (distance <= 400){fareCode = 1};
+  if (distance <= 463){fareCode = 1};
 
   switch(fareCode){
     case(1):
