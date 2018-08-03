@@ -20,7 +20,8 @@ function calculatesFarePrice(blocks, endBlock){
   distance = distanceTravelledInFeet(blocks, endBlock);
   if (distance <= 264){fareCode = 1};
   if (distance > 400 && distance < 2000){fareCode = 2};
-  if (distance > 2000){fareCode = 3};
+  if (distance > 2000 && distance < 2500){fareCode = 3};
+  if (distance > 2500)(fareCode = 4);
   switch(fareCode){
     case 1:
     fare = 0;
@@ -31,6 +32,9 @@ function calculatesFarePrice(blocks, endBlock){
     break;
     case 3:
     fare = 25;
+    break;
+    case 4:
+    fare = "cannot travel that far";
     break;
   };
   return fare;
