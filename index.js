@@ -18,7 +18,12 @@ function calculatesFarePrice(blocks, endBlock){
   let fare = 0;
   let fareCode;
   distance = distanceTravelledInFeet(blocks, endBlock);
-
+  switch(distance){
+    case < 264:
+    fare = 0;
+    break;
+  };
+  return fare;
 
 
 
