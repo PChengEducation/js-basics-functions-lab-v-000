@@ -9,8 +9,9 @@ function distanceFromHqInFeet(blocks){
 };
 
 function distanceTravelledInFeet(blocks, endBlock){
-  let result = distanceFromHqInFeet(endBlock) - distanceFromHqInFeet(blocks);
-  return result > 0? result*-1 : result;
+  let distance = 0;
+  distance = (endBlock - blocks) < 0? blocks - endBlock : endBlock - blocks;
+  return distance * 264;
 };
 
 function calculatesFarePrice(blocks, endBlock){
