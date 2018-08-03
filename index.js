@@ -4,7 +4,7 @@ function distanceFromHqInBlocks(blocks){
   return result < 0? result*-1 : result
 };
 
-function distanceFromHqlnFeet(blocks){
+function distanceFromHqInFeet(blocks){
   let difference = 0;
   differnce = blocks - 42;
   let result = 0;
